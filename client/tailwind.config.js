@@ -1,0 +1,16 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      backgroundImage: {
+        'box-gradient': 'linear-gradient(to bottom right, rgba(255, 255, 255, 1), rgba(42, 42, 42, 0.5))',
+      },
+    },
+  },
+  plugins: [],
+}
+
