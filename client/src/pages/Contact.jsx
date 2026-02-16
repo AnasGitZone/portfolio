@@ -74,10 +74,10 @@ export default function Contact() {
           <h2 className="text-lg sm:text-xl lg:text-2xl font-bold mb-4 text-yellow-400">Get In Touch</h2>
           <div className="flex flex-col gap-4 sm:gap-6 text-gray-300">
             {[
-            { icon: FaEnvelope, label: "Email", value: "dk7637466@gmail.com" },
-              { icon: FaPhoneAlt, label: "Call", value: "+91 7250928782" },
+            { icon: FaEnvelope, label: "Email", value: "anas10202030@gmail.com" },
+              { icon: FaPhoneAlt, label: "Call", value: "+91 8603773960" },
           
-              { icon: FaMapMarkerAlt, label: "Location", value: "Gopalganj, Bihar, India" }
+              { icon: FaMapMarkerAlt, label: "Location", value: "Sitamarhi, Bihar, India" }
             ].map((item, index) => (
               <motion.div 
                 key={index}

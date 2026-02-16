@@ -1,6 +1,7 @@
 import React from "react";
 import SkillCard from "./SkillCard";
-import { FaPython, FaShieldAlt, FaNetworkWired, FaLinux, FaWindows, FaAws, FaCloud, FaTerminal, FaFileAlt } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaJava, FaDatabase, FaNodeJs, FaReact, FaBootstrap, FaGitAlt, FaCode, FaTools } from "react-icons/fa";
+import { SiMongodb, SiSpringboot, SiExpress, SiPostman, SiIntellijidea, SiMysql } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const Skills = () => {
@@ -16,106 +17,55 @@ const Skills = () => {
       
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-10 xl:gap-12">
         <SkillCard
-          title="SIEM & Monitoring"
+          title="Frontend Technologies"
           skills={[
-            { name: "Splunk", level: 85, icon: <FaShieldAlt /> },
-            { name: "QRadar", level: 80, icon: <FaShieldAlt /> },
-            { name: "Sentinel", level: 80, icon: <FaShieldAlt /> },
-            { name: "Wazuh", level: 80, icon: <FaShieldAlt /> },
-           
-            { name: "Log Analysis", level: 85, icon: <FaShieldAlt /> },
+            { name: "HTML", level: 85, icon: <FaHtml5 /> },
+            { name: "CSS", level: 85, icon: <FaCss3Alt /> },
+            { name: "JavaScript", level: 80, icon: <FaJsSquare /> },
+            { name: "React.js", level: 75, icon: <FaReact /> },
+            { name: "Bootstrap", level: 80, icon: <FaBootstrap /> },
           ]}
         />
 
         <SkillCard
-          title="Threat & Incident Response"
+          title="Backend Technologies"
           skills={[
-            { name: "Threat Detection", level: 85, icon: <FaShieldAlt /> },
-            { name: "MITRE ATT&CK", level: 80, icon: <FaShieldAlt /> },
-            { name: "Incident Response", level: 85, icon: <FaShieldAlt /> },
-            { name: "Alert Triage", level: 85, icon: <FaShieldAlt /> },
-            { name: "Threat Intelligence", level: 80, icon: <FaShieldAlt /> },
-            
+            { name: "Java", level: 85, icon: <FaJava /> },
+            { name: "Spring Boot", level: 75, icon: <SiSpringboot /> },
+            { name: "Node.js", level: 70, icon: <FaNodeJs /> },
+            { name: "Express.js", level: 70, icon: <SiExpress /> },
+            { name: "RESTful API", level: 80, icon: <FaDatabase /> },
           ]}
         />
 
         <SkillCard
-          title="Penetration Testing"
+          title="Database Management"
           skills={[
-            { name: "Burp Suite", level: 80, icon: <FaShieldAlt /> },
-            { name: "Metasploit", level: 75, icon: <FaShieldAlt /> },
-            { name: "Nmap", level: 85, icon: <FaNetworkWired /> },
-            { name: "Wireshark", level: 85, icon: <FaNetworkWired /> },
-            { name: "Kali Linux", level: 85, icon: <FaLinux /> },
+            { name: "MySQL", level: 85, icon: <SiMysql /> },
+            { name: "MongoDB", level: 75, icon: <SiMongodb /> },
+            { name: "SQL", level: 85, icon: <FaDatabase /> },
+            { name: "JDBC", level: 80, icon: <FaJava /> },
           ]}
         />
 
         <SkillCard
-          title="Vulnerability Assessment"
+          title="Tools & IDEs"
           skills={[
-            { name: "Nessus", level: 80, icon: <FaShieldAlt /> },
-            { name: "OpenVAS", level: 75, icon: <FaShieldAlt /> },
-            { name: "VirusTotal", level: 85, icon: <FaShieldAlt /> },
-            { name: "MISP", level: 75, icon: <FaShieldAlt /> },
+            { name: "VS Code", level: 90, icon: <FaCode /> },
+            { name: "IntelliJ IDEA", level: 85, icon: <SiIntellijidea /> },
+            { name: "Eclipse", level: 80, icon: <FaTools /> },
+            { name: "Postman", level: 85, icon: <SiPostman /> },
+            { name: "Git & GitHub", level: 80, icon: <FaGitAlt /> },
           ]}
         />
 
         <SkillCard
-          title="Malware & Forensics"
+          title="Core Concepts"
           skills={[
-            { name: "Malware Analysis", level: 80, icon: <FaShieldAlt /> },
-            { name: "IDA Pro", level: 70, icon: <FaShieldAlt /> },
-            { name: "Security Operations", level: 75, icon: <FaShieldAlt /> },
-            { name: "Digital Forensics", level: 75, icon: <FaShieldAlt /> },
-          ]}
-        />
-
-        <SkillCard
-          title="Endpoint & EDR/XDR"
-          skills={[
-            { name: "CrowdStrike", level: 80, icon: <FaShieldAlt /> },
-            { name: "Microsoft Defender", level: 85, icon: <FaWindows /> },
-            { name: "Endpoint Security", level: 85, icon: <FaShieldAlt /> },
-          ]}
-        />
-
-        <SkillCard
-          title="Networking & Protocols"
-          skills={[
-            { name: "TCP/IP, DNS, HTTP", level: 85, icon: <FaNetworkWired /> },
-            { name: "TLS/SSL", level: 80, icon: <FaNetworkWired /> },
-            { name: "Palo Alto Firewall", level: 75, icon: <FaShieldAlt /> },
-            { name: "Fortinet", level: 75, icon: <FaShieldAlt /> },
-          ]}
-        />
-
-        <SkillCard
-          title="Systems & Cloud Security"
-          skills={[
-            { name: "Windows Security", level: 85, icon: <FaWindows /> },
-            { name: "Linux Security", level: 80, icon: <FaLinux /> },
-            { name: "AWS Security", level: 75, icon: <FaAws /> },
-            { name: "Azure Security", level: 75, icon: <FaCloud /> },
-          ]}
-        />
-
-        <SkillCard
-          title="Scripting & Automation"
-          skills={[
-            { name: "Python Scripting", level: 85, icon: <FaPython /> },
-            { name: "PowerShell", level: 80, icon: <FaTerminal /> },
-            { name: "Security Monitoring", level: 85, icon: <FaShieldAlt /> },
-             { name: "Bash Scripting", level: 85, icon: <FaShieldAlt /> },
-          ]}
-        />
-
-        <SkillCard
-          title="Documentation & Ticketing"
-          skills={[
-           
-            { name: "Reporting", level: 85, icon: <FaFileAlt /> },
-            { name: "Documentation", level: 90, icon: <FaFileAlt /> },
-            { name: "Communication", level: 85, icon: <FaFileAlt /> },
+            { name: "OOP", level: 85, icon: <FaJava /> },
+            { name: "DBMS", level: 80, icon: <FaDatabase /> },
+            { name: "DSA (Basic)", level: 70, icon: <FaJava /> },
+            { name: "MVC Architecture", level: 75, icon: <FaJava /> },
           ]}
         />
       </div>

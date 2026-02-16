@@ -4,25 +4,43 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
-    title: "Investigation of Unauthorized Access Using SIEM",
-    duration: "1–2 months",
-    description: "Investigated over 5,000+ authentication logs to detect unauthorized login attempts. Correlated user activity across 6–8 systems to identify abnormal behavior patterns. Validated security alerts using IP reputation, timestamps, and event frequency, and documented findings to support SOC escalation processes.",
-    tech: ["Splunk", "Windows Event Logs", "MITRE ATT&CK", "IP Intelligence", "Log Correlation", "SIEM Rules"],
+    image:
+      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+    title: "Library Management System",
+    duration: "2–3 months",
+    description:
+      "Developed a full-stack Library Management System to manage books, student records, issue/return tracking, and availability status. Implemented role-based login for Admin and Students with secure CRUD operations and responsive UI.",
+    tech: ["MongoDB", "Java", "javascript", "Html","Css","Spring Boot", "JWT Auth", "Tailwind CSS"],
   },
+
   {
-    image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80",
-    title: "SSH Log Analysis and Threat Detection Using SIEM",
-    duration: "1–2 months",
-    description: "Monitored and correlated 10,000+ SSH logs to detect high-volume login failures and suspicious SSH access activity. Identified malicious login patterns and mapped attacks to MITRE ATT&CK (T1110 – Brute Force). Triaged high-severity alerts and reduced false positives by 30%, supporting real-time SOC workflows by reviewing 20+ alerts per day.",
-    tech: ["Splunk", "Linux Logs", "SSH", "MITRE ATT&CK", "SIEM Alerting", "Log Analysis"],
+    image:
+      "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=800&q=80",
+    title: "Hospital Management System",
+    duration: "3–4 months",
+    description:
+      "Built a Hospital Management System in Java to manage patient registration, doctor scheduling, appointments, billing, and medical records. Designed modular architecture with database connectivity and efficient workflow automation.",
+    tech: ["Java", "JDBC", "MySQL",  "javascript", "Html","Css","Spring Boot", "JWT Auth"],
   },
+
   {
-    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80",
-    title: "SIEM-Based Threat Detection & Automated Alerting",
+    image:
+      "https://programiz.com/online-compiler/assets/logos/compiler_logo.png",
+    title: "Online Code Compiler Platform",
+    duration: "2–3 months",
+    description:
+      "Created an Online Code Compiler web platform supporting multiple programming languages with real-time execution. Integrated secure backend APIs for compiling and running code, along with user-friendly editor interface.",
+    tech: ["MongoDB", "Express.js", "React.js", "Node.js", "Code Execution API", "Tailwind CSS"],
+  },
+
+  {
+    image:
+      "https://workdo.io/wp-content/themes/storefront-child/assets-v2/images/add-ons/dash-saas/resume-builder-dash/resume-builder-dash-banner.webp",
+    title: "Resume Builder Web Application",
     duration: "1–2 months",
-    description: "Designed and implemented a mini-SIEM using open-source tools to detect and respond to real-world security threats. Ingested logs from firewalls, endpoints, and IDS/IPS into a centralized SIEM platform for continuous monitoring. Developed custom detection rules using Sigma and YARA to identify brute-force attacks and suspicious PowerShell activity. Built automated alerting workflows to notify the SOC team via Slack/Email and implemented Python-based automation for auto-blocking malicious IPs.",
-    tech: ["ELK Stack", "Splunk", "Sigma Rules", "YARA", "Python", "Firewall Logs", "IDS/IPS", "Slack Alerts"],
+    description:
+      "Developed a Resume Builder application that allows users to create, edit, and download professional resumes with customizable templates. Implemented form validation, live preview, and PDF export functionality.",
+    tech: ["MongoDB", "Express.js", "React.js", "Node.js", "PDF Export", "Tailwind CSS"],
   },
 ];
 

@@ -1,38 +1,46 @@
 import HeroSection from "./HeroSection";
 import { motion } from "framer-motion";
 
+
 const services = [
   {
-    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80",
-    title: "SOC Monitoring & Detection",
-    description: "Real-time security monitoring, alert triage, log analysis, and threat detection to identify and respond to cyber incidents before they cause damage.",
+    image:
+      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80",
+    title: "Frontend Development",
+    description:
+      "Designing and developing responsive user interfaces using HTML, CSS, JavaScript, React.js, and Tailwind CSS to create modern and interactive web applications.",
   },
   {
-    image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80",
-    title: "Phishing Analysis",
-    description: "Investigation of suspicious emails, URLs, and attachments to detect phishing campaigns, credential theft, and social engineering attacks.",
+    image:
+      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80",
+    title: "Backend Development",
+    description:
+      "Building secure and scalable server-side applications using Node.js, Express.js, Java, and Spring Boot to handle business logic, APIs, and authentication.",
   },
   {
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
-    title: "Malware Analysis",
-    description: "Static and dynamic analysis of malicious files to understand attacker behavior, infection chains, and mitigation strategies.",
+    image:
+      "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=800&q=80",
+    title: "Database Management",
+    description:
+      "Designing and managing databases like MongoDB and MySQL to store, retrieve, and organize application data efficiently with optimized queries.",
   },
   {
-    image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80",
-    title: "Threat Hunting",
-    description: "Proactive searching through logs, endpoints, and network data to uncover hidden threats and advanced persistent attacks.",
+    image:
+      "https://media.licdn.com/dms/image/v2/D4D12AQHe5RBOds0-iQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1702136235215?e=2147483647&v=beta&t=8JeW9kg944D9SbIdmd0OhhHGjVfdHr7WWyuJzJPvE2w",
+    title: "Full Stack Web Development",
+    description:
+      "Developing complete full stack web applications by integrating frontend and backend technologies to deliver functional, user-friendly solutions.",
   },
   {
-    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
-    title: "Incident Response Support",
-    description: "Assisting in containment, investigation, root-cause analysis (RCA), and recovery during security incidents.",
-  },
-  {
-    image: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&q=80",
-    title: "SIEM & Log Analysis",
-    description: "Configuring and analyzing SIEM tools (Splunk/ELK), building dashboards, alerts, and detection rules for better visibility.",
+    image:
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+    title: "Project Development",
+    description:
+      "Working on real-world MERN and Java-based projects to improve problem-solving skills, coding practices, and software development experience.",
   },
 ];
+
+
 
 export default function Services() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLaptopCode, FaPencilRuler, FaBullhorn, FaPaintBrush, FaEye, FaDownload, FaShieldAlt, FaEnvelope, FaBug, FaSearch, FaExclamationTriangle } from "react-icons/fa";
+import { FaLaptopCode, FaEye, FaDownload, FaServer, FaDatabase, FaCode, FaProjectDiagram } from "react-icons/fa";
 import { MdCalendarMonth } from "react-icons/md";
 import { motion } from "framer-motion";
 import HeroSection from "./HeroSection";
@@ -10,29 +10,29 @@ const educationHistory = [
     degree: "Bachelor of Technology in CSE ",
     university: "Maharishi Markandeshwar Deemed To Be University, Mullana, Ambala",
     years: "2022 – 2026",
-    description: "I am currently pursuing my B.Tech in Computer Science and Engineering with a specialization in Cloud Technology & information Security, focusing on network security, threat analysis, and secure systems.",
+    description: "I am currently pursuing my B.Tech in Computer Science and Engineering.",
   },
 
   {
     degree: "12th (Science Stream)",
-    university: "Gandhi Inter College",
+    university: "Shree Gandhi HighSchool Parihar (+2) ",
     years: "2020 – 2022",
-    description: "I completed my 12th in Science stream with subjects including Physics, Chemistry, and Mathematics.",
+    description: "I completed my 12th in Science stream with subjects including Physics, Chemistry, Biology and Mathematics.",
   },
   {
     degree: "10th Grade",
-    university: "UHS Balra, Gopalganj",
+    university: "Shree Gandhi HighSchool Parihar",
     years: "2019 – 2020",
     description: "I completed my 10th grade, where I developed a strong foundation in mathematics, science, and languages.",
   },
 ];
 
 const services = [
-  { icon: FaShieldAlt, title: "SOC Analyst", desc: "Monitoring security events, analyzing alerts, detecting threats, and responding to incidents to protect systems from cyber attacks." },
-  { icon: FaEnvelope, title: "Phishing Analysis", desc: "Investigating suspicious emails, URLs, and attachments to identify phishing attempts and prevent credential theft." },
-  { icon: FaBug, title: "Malware Analysis", desc: "Studying malicious files and behavior to understand how malware works and how to detect and stop it." },
-  { icon: FaSearch, title: "Threat Detection", desc: "Using logs, SIEM tools, and threat intelligence to identify and track potential security risks." },
-  { icon: FaExclamationTriangle, title: "Incident Response", desc: "Analyzing security breaches, containing threats, and helping restore systems safely." },
+  { icon: FaLaptopCode, title: "Frontend Development", desc: "Designing and developing responsive user interfaces using HTML, CSS, JavaScript, and modern frameworks to create interactive web applications." },
+  { icon: FaServer, title: "Backend Development", desc: "Building server-side logic using Java, Spring Boot, and databases to handle business logic, authentication, and data processing." },
+  { icon: FaDatabase, title: "Database Management", desc: "Designing and managing databases like MySQL to store, retrieve, and organize application data efficiently." },
+  { icon: FaCode, title: "Web Application Development", desc: "Developing complete web applications by integrating frontend and backend technologies to deliver functional and user-friendly solutions." },
+  { icon: FaProjectDiagram, title: "Project Development", desc: "Working on real-world projects to improve coding skills, problem-solving ability, and understanding of full stack development." },
 ];
 
 export default function About() {
@@ -58,13 +58,16 @@ export default function About() {
           
           <div className="bg-[#111]/50 backdrop-blur-sm p-4 sm:p-6 rounded-xl sm:rounded-2xl border border-gray-700/50 mb-8 sm:mb-12">
             <p className="text-gray-300 leading-relaxed text-sm sm:text-base lg:text-lg mb-3 sm:mb-4">
-              I am <span className="text-yellow-400 font-semibold">Dipak Kumar Sah</span>, a final-year student with a keen interest in <span className="text-yellow-400 font-semibold">Cybersecurity</span>. I am focused on building my skills in <span className="text-yellow-400 font-semibold">SOC and Malware Analysis</span>, with a growing interest in Malware Development.
+              I am <span className="text-yellow-400 font-semibold">Md Anas</span>, a final-year Computer Science Engineering student with a strong interest in <span className="text-yellow-400 font-semibold">Full Stack Web Development</span>. I focus on building responsive, user-friendly, and efficient web applications using modern technologies.
             </p>
             <p className="text-gray-300 leading-relaxed text-sm sm:text-base lg:text-lg mb-3 sm:mb-4">
-              I actively practice on <span className="text-yellow-400 font-semibold">TryHackMe and Hack The Box</span> to gain hands-on experience in real-world security scenarios. I also have foundational knowledge of <span className="text-yellow-400 font-semibold">Cloud Computing</span>, which helps me understand modern security environments.
+              I have experience working with <span className="text-yellow-400 font-semibold">Java, HTML, CSS, and JavaScript</span>, and I am currently improving my backend development skills using Java and database integration. I have also worked on academic and personal projects such as a <span className="text-yellow-400 font-semibold">Book Management System</span>, which helped me understand real-world application development.
+            </p>
+            <p className="text-gray-300 leading-relaxed text-sm sm:text-base lg:text-lg mb-3 sm:mb-4">
+              I am passionate about learning new technologies and improving my problem-solving skills. My goal is to become a professional Full Stack Developer and build scalable and secure web applications.
             </p>
             <p className="text-gray-300 leading-relaxed text-sm sm:text-base lg:text-lg italic">
-              ✨ I believe that good security practices and seamless functionality go hand in hand to build exceptional user experiences.
+              ✨ I believe in writing clean code, creating good user experiences, and continuously improving my technical skills.
             </p>
           </div>
         </motion.div>
@@ -147,7 +150,7 @@ export default function About() {
           
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
             <motion.a
-              href="/Dipak Resume.pdf"
+              href="/Anas Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
@@ -158,7 +161,7 @@ export default function About() {
               View Resume
             </motion.a>
             <motion.a
-              href="/Dipak Resume.pdf"
+              href="/Anas Resume.pdf"
               download
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
