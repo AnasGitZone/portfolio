@@ -17,7 +17,7 @@ export default function Navbar() {
     <nav className="bg-[#1e1e1e] text-white shadow-md fixed top-0 left-0 right-0 z-50 border-b border-gray-700/50">
       <div className="flex justify-between items-center px-4 sm:px-6 py-3 sm:py-4">
         <h2 className="text-xl sm:text-2xl font-bold hover:text-yellow-400 transition-colors z-50">
-          Deepak Kumar Sah
+          Md Anas
         </h2>
 
         {/* Desktop Menu */}
