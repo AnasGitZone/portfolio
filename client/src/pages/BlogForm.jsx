@@ -28,7 +28,7 @@ export default function BlogForm() {
     image: null,
     category: "",
     tags: "",
-    author: "Deepak Kumar Sah",
+    author: "Md Anas",
     published: true,
     publishDate: new Date().toISOString().split('T')[0],
     publishTime: new Date().toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: false }),
